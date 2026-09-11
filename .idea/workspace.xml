@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cab6ed10-b0bc-498c-94a8-5e2c2463b952" name="Changes" comment="Выполнил шаг 1">
+    <list default="true" id="cab6ed10-b0bc-498c-94a8-5e2c2463b952" name="Changes" comment="Выполнили шаги 2,3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -23,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Step1" />
+        <entry key="$PROJECT_DIR$" value="Step2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -54,7 +54,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "Step2",
+    "git-widget-placeholder": "Step4",
     "nodejs_package_manager_path": "npm",
     "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
@@ -108,7 +108,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789137008966</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Выполнили шаги 2,3">
+      <option name="closed" value="true" />
+      <created>1789137995962</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1789137995962</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +137,7 @@
     <MESSAGE value="First commit" />
     <MESSAGE value="Создал файл main" />
     <MESSAGE value="Выполнил шаг 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Выполнил шаг 1" />
+    <MESSAGE value="Выполнили шаги 2,3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Выполнили шаги 2,3" />
   </component>
 </project>
