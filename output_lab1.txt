@@ -1,0 +1,39 @@
+Создан новый актор
+Актор с адресом ActorAddr-/A~a получил Первое сообщение от ActorAddr-System:ExternalRequester
+Актор с адресом ActorAddr-/A~a ранее получал сообщение Первое сообщение
+Актор с адресом ActorAddr-/A~a получил 132 от ActorAddr-System:ExternalRequester
+Актор с адресом ActorAddr-/A~a ранее получал сообщение Первое сообщение
+Актор с адресом ActorAddr-/A~a ранее получал сообщение 132
+Актор с адресом ActorAddr-/A~a получил [1, 3, 5] от ActorAddr-System:ExternalRequester
+Актор с адресом ActorAddr-/A~a ранее получал сообщение Первое сообщение
+Актор с адресом ActorAddr-/A~a ранее получал сообщение 132
+Актор с адресом ActorAddr-/A~a ранее получал сообщение [1, 3, 5]
+Актор с адресом ActorAddr-/A~a получил {'key': 'value'} от ActorAddr-System:ExternalRequester
+Актор с адресом ActorAddr-/A~a ранее получал сообщение Первое сообщение
+Актор с адресом ActorAddr-/A~a ранее получал сообщение 132
+Актор с адресом ActorAddr-/A~a ранее получал сообщение [1, 3, 5]
+Актор с адресом ActorAddr-/A~a ранее получал сообщение {'key': 'value'}
+Актор с адресом ActorAddr-/A~a получил CREATE_ACTOR от ActorAddr-System:ExternalRequester
+Актор с адресом ActorAddr-/A~a ранее получал сообщение Первое сообщение
+Актор с адресом ActorAddr-/A~a ранее получал сообщение 132
+Актор с адресом ActorAddr-/A~a ранее получал сообщение [1, 3, 5]
+Актор с адресом ActorAddr-/A~a ранее получал сообщение {'key': 'value'}
+Актор с адресом ActorAddr-/A~a ранее получал сообщение CREATE_ACTOR
+Создан новый актор
+Создали нового актора, его адрес - ActorAddr-/A~a~a
+Актор с адресом ActorAddr-/A~a получил RETRANSLATED MESSAGE от ActorAddr-System:ExternalRequester
+Актор с адресом ActorAddr-/A~a ранее получал сообщение Первое сообщение
+Актор с адресом ActorAddr-/A~a ранее получал сообщение 132
+Актор с адресом ActorAddr-/A~a ранее получал сообщение [1, 3, 5]
+Актор с адресом ActorAddr-/A~a ранее получал сообщение {'key': 'value'}
+Актор с адресом ActorAddr-/A~a ранее получал сообщение CREATE_ACTOR
+Актор с адресом ActorAddr-/A~a ранее получал сообщение RETRANSLATED MESSAGE
+Ретранслируем сообщение дочернему актору с адресом ActorAddr-/A~a~a
+Актор с адресом ActorAddr-/A~a~a получил RETRANSLATED MESSAGE от ActorAddr-/A~a
+Актор с адресом ActorAddr-/A~a~a ранее получал сообщение RETRANSLATED MESSAGE
+Актор числа с адресом ActorAddr-/A~c получил {'init_value': 1, 'calculator_address': <thespian.actors.ActorAddress object at 0x7fccb7158530>} от ActorAddr-System:ExternalRequester
+Актор-калькулятор с адресом ActorAddr-/A~b получил 1 от ActorAddr-/A~c, итоговая сумма: 1
+Актор числа с адресом ActorAddr-/A~d получил {'init_value': 2, 'calculator_address': <thespian.actors.ActorAddress object at 0x7fccb7158530>} от ActorAddr-System:ExternalRequester
+Актор-калькулятор с адресом ActorAddr-/A~b получил 2 от ActorAddr-/A~d, итоговая сумма: 3
+Актор числа с адресом ActorAddr-/A~e получил {'init_value': 3, 'calculator_address': <thespian.actors.ActorAddress object at 0x7fccb7158530>} от ActorAddr-System:ExternalRequester
+Актор-калькулятор с адресом ActorAddr-/A~b получил 3 от ActorAddr-/A~e, итоговая сумма: 6
