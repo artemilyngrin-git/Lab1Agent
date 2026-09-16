@@ -80,6 +80,16 @@ class ExtendedCalculatorActor(Actor):
         print(f'Актор-калькулятор с адресом {self.myAddress} получил {msg} от {sender}, '
               f'операция "{self.operation}", результат: {self.compute()}')
         
+class TimerActor(Actor):
+    def __init__(self):
+        super().__init__()
+        self.counter = 0
+
+    def receiveMessage(self, msg, sender):
+        self.counter += 1
+        print(f'Актор-таймер с адресом {self.myAddress} получил обращение №{self.counter}: {msg}')
+        self.send(sender, self.counter)
+        
 if __name__ == "__main__":
     # Создаем систему акторов, внутри которой они будут жить
     actorSystem = ActorSystem()
@@ -107,12 +117,19 @@ if __name__ == "__main__":
     # init_message_3 = {'init_value': 3, 'calculator_address': calculator_address}
     # actorSystem.tell(number_agent_3, init_message_3)
     
-    #задание 1 
-    ext_calculator = actorSystem.createActor(ExtendedCalculatorActor)
-    actorSystem.tell(ext_calculator, {'operation': 'multiply'})
-    actorSystem.tell(ext_calculator, 2)
-    actorSystem.tell(ext_calculator, 3)
-    actorSystem.tell(ext_calculator, 4)
-    actorSystem.tell(ext_calculator, {'operation': 'subtract'})
-    actorSystem.tell(ext_calculator, 10)
+    # #задание 1 
+    # ext_calculator = actorSystem.createActor(ExtendedCalculatorActor)
+    # actorSystem.tell(ext_calculator, {'operation': 'multiply'})
+    # actorSystem.tell(ext_calculator, 2)
+    # actorSystem.tell(ext_calculator, 3)
+    # actorSystem.tell(ext_calculator, 4)
+    # actorSystem.tell(ext_calculator, {'operation': 'subtract'})
+    # actorSystem.tell(ext_calculator, 10)
+    
+    #задание 2
+    timer_1 = actorSystem.createActor(TimerActor)
+    timer_2 = actorSystem.createActor(TimerActor)
+    print('Таймер 1:', actorSystem.ask(timer_1, 'ping', 2))
+    print('Таймер 1:', actorSystem.ask(timer_1, 'ping', 2))
+    print('Таймер 2:', actorSystem.ask(timer_2, 'ping', 2))
 
