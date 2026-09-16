@@ -1,5 +1,5 @@
 from thespian.actors import *
-
+import time
 
 class SimplestActor(Actor):
 
@@ -90,6 +90,29 @@ class TimerActor(Actor):
         print(f'Актор-таймер с адресом {self.myAddress} получил обращение №{self.counter}: {msg}')
         self.send(sender, self.counter)
         
+class ChainLinkActor(Actor):
+    def __init__(self):
+        super().__init__()
+        self.next_address = None
+        self.origin_address = None
+
+    def receiveMessage(self, msg, sender):
+        if isinstance(msg, dict) and msg.get('type') == 'configure':
+            self.next_address = msg.get('next_address')
+            self.origin_address = msg.get('origin_address')
+            return
+        if isinstance(msg, dict) and msg.get('type') == 'chain_message':
+            if self.next_address is not None:
+                print(f'Актор цепочки {self.myAddress} пересылает сообщение актору {self.next_address}')
+                self.send(self.next_address, msg)
+            else:
+                elapsed = time.time() - msg['start_time']
+                print(f'Последний актор цепочки {self.myAddress} получил сообщение, 'f'время прохождения по цепочке: {elapsed} с')
+                self.send(self.origin_address, {'type': 'chain_result', 'elapsed': elapsed})
+            return
+        if isinstance(msg, dict) and msg.get('type') == 'chain_result':
+            print(f'Первый актор цепочки {self.myAddress} получил результат: 'f'время прохождения {msg["elapsed"]} с')
+            
 if __name__ == "__main__":
     # Создаем систему акторов, внутри которой они будут жить
     actorSystem = ActorSystem()
@@ -126,10 +149,18 @@ if __name__ == "__main__":
     # actorSystem.tell(ext_calculator, {'operation': 'subtract'})
     # actorSystem.tell(ext_calculator, 10)
     
-    #задание 2
-    timer_1 = actorSystem.createActor(TimerActor)
-    timer_2 = actorSystem.createActor(TimerActor)
-    print('Таймер 1:', actorSystem.ask(timer_1, 'ping', 2))
-    print('Таймер 1:', actorSystem.ask(timer_1, 'ping', 2))
-    print('Таймер 2:', actorSystem.ask(timer_2, 'ping', 2))
+    # #задание 2
+    # timer_1 = actorSystem.createActor(TimerActor)
+    # timer_2 = actorSystem.createActor(TimerActor)
+    # print('Таймер 1:', actorSystem.ask(timer_1, 'ping', 2))
+    # print('Таймер 1:', actorSystem.ask(timer_1, 'ping', 2))
+    # print('Таймер 2:', actorSystem.ask(timer_2, 'ping', 2))
 
+    #задание 3
+    chain = [actorSystem.createActor(ChainLinkActor) for _ in range(5)]
+    for i, address in enumerate(chain):
+        next_address = chain[i + 1] if i + 1 < len(chain) else None
+        actorSystem.tell(address, {'type': 'configure', 'next_address': next_address, 'origin_address': chain[0]})
+    time.sleep(0.2)
+    actorSystem.tell(chain[0], {'type': 'chain_message', 'start_time': time.time()})
+    time.sleep(1)
