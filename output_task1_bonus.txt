@@ -1,0 +1,6 @@
+Актор-калькулятор с адресом ActorAddr-/A~a переключён на операцию "multiply"
+Актор-калькулятор с адресом ActorAddr-/A~a получил 2 от ActorAddr-System:ExternalRequester, операция "multiply", результат: 2
+Актор-калькулятор с адресом ActorAddr-/A~a получил 3 от ActorAddr-System:ExternalRequester, операция "multiply", результат: 6
+Актор-калькулятор с адресом ActorAddr-/A~a получил 4 от ActorAddr-System:ExternalRequester, операция "multiply", результат: 24
+Актор-калькулятор с адресом ActorAddr-/A~a переключён на операцию "subtract"
+Актор-калькулятор с адресом ActorAddr-/A~a получил 10 от ActorAddr-System:ExternalRequester, операция "subtract", результат: -15

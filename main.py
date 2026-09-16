@@ -55,10 +55,10 @@ if __name__ == "__main__":
     actorSystem.tell(actorAddress1, 'CREATE_ACTOR')
     actorSystem.tell(actorAddress1, 'RETRANSLATED MESSAGE')
     # Отправляем по сохраненному адресу сообщение
-    # actorSystem.tell(actorAddress1, "Первое сообщение")
-    # actorSystem.tell(actorAddress1, 132)
-    # actorSystem.tell(actorAddress1, [1, 3, 5])
-    # actorSystem.tell(actorAddress1, {'key': 'value'})
+    actorSystem.tell(actorAddress1, "Первое сообщение")
+    actorSystem.tell(actorAddress1, 132)
+    actorSystem.tell(actorAddress1, [1, 3, 5])
+    actorSystem.tell(actorAddress1, {'key': 'value'})
     
     calculator_address = actorSystem.createActor(CalculatorActor)
  
