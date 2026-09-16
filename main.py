@@ -23,6 +23,30 @@ class SimplestActor(Actor):
             print(f'Создали нового актора, его адрес - {child_actor_address}')
             self.child_addresses.append(child_actor_address)
 
+class NumberActor(Actor):
+    def __init__(self):
+        super().__init__()
+        self.value = 0
+ 
+    def receiveMessage(self, msg, sender):
+        print(f'Актор числа с адресом {self.myAddress} получил {msg} от {sender}')
+        # Ожидаем словарь со значением числа и адресом актора-калькулятора
+        self.value = msg.get('init_value')
+        calculator_address = msg.get('calculator_address')
+        self.send(calculator_address, self.value)
+ 
+class CalculatorActor(Actor):
+    def __init__(self):
+        super().__init__()
+        self.values = []
+ 
+    def receiveMessage(self, msg, sender):
+        self.values.append(msg)
+        total_sum = sum(self.values)
+        print(f'Актор-калькулятор с адресом {self.myAddress} получил {msg} от {sender}, '
+              f'итоговая сумма: {total_sum}')
+
+
 if __name__ == "__main__":
     # Создаем систему акторов, внутри которой они будут жить
     actorSystem = ActorSystem()
@@ -35,3 +59,11 @@ if __name__ == "__main__":
     # actorSystem.tell(actorAddress1, 132)
     # actorSystem.tell(actorAddress1, [1, 3, 5])
     # actorSystem.tell(actorAddress1, {'key': 'value'})
+    
+    calculator_address = actorSystem.createActor(CalculatorActor)
+ 
+    number_agent_1 = actorSystem.createActor(NumberActor)
+    init_message_1 = {'init_value': 3, 'calculator_address': calculator_address}
+    actorSystem.tell(number_agent_1, init_message_1)
+
+
