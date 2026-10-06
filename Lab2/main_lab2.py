@@ -17,3 +17,11 @@ if __name__ == '__main__':
     init_message_2_data = {'init_value': 3, 'calculator_address': calculator_address}
     init_message_2 = Message(MessageType.INITIALIZATION, init_message_2_data)
     actorSystem.tell(number_agent_2, init_message_2)
+
+    number_agent_3 = actorSystem.createActor(NumberAgent)
+    init_message_3_data = {'init_value': 3, 'calculator_address': calculator_address}
+    init_message_3 = Message(MessageType.INITIALIZATION, init_message_3_data)
+    actorSystem.tell(number_agent_3, init_message_3)
+
+    operation = Message(MessageType.SET_OPERATION, '*')
+    actorSystem.tell(calculator_address, operation)

@@ -1,0 +1,10 @@
+C:\MultiAgents\Lab1Agent\.venv\Scripts\python.exe C:\MultiAgents\Lab1Agent\Lab2\main_lab2.py
+Актор числа с адресом ActorAddr-/A~b получил Message(msg_type=<MessageType.INITIALIZATION: 'Инициализация'>, msg_body={'init_value': 1, 'calculator_address': <thespian.actors.ActorAddress object at 0x0000022CD54FEEA0>}) от ActorAddr-System:ExternalRequester
+Актор-калькулятор с адресом ActorAddr-/A~a получил Message(msg_type=<MessageType.HELLO_WORLD: 'Приветствие'>, msg_body=1) от ActorAddr-/A~b, итоговая сумма: 1
+Актор числа с адресом ActorAddr-/A~c получил Message(msg_type=<MessageType.INITIALIZATION: 'Инициализация'>, msg_body={'init_value': 3, 'calculator_address': <thespian.actors.ActorAddress object at 0x0000022CD54FEEA0>}) от ActorAddr-System:ExternalRequester
+Актор-калькулятор с адресом ActorAddr-/A~a получил Message(msg_type=<MessageType.HELLO_WORLD: 'Приветствие'>, msg_body=3) от ActorAddr-/A~c, итоговая сумма: 4
+Актор числа с адресом ActorAddr-/A~d получил Message(msg_type=<MessageType.INITIALIZATION: 'Инициализация'>, msg_body={'init_value': 3, 'calculator_address': <thespian.actors.ActorAddress object at 0x0000022CD54FEEA0>}) от ActorAddr-System:ExternalRequester
+Актор-калькулятор с адресом ActorAddr-/A~a получил Message(msg_type=<MessageType.HELLO_WORLD: 'Приветствие'>, msg_body=3) от ActorAddr-/A~d, итоговая сумма: 7
+Актор-калькулятор с адресом ActorAddr-/A~a получил Message(msg_type=<MessageType.SET_OPERATION: 'Выбор операции'>, msg_body='-') от ActorAddr-System:ExternalRequester, итоговая разница: -5
+
+Process finished with exit code 0

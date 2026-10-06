@@ -4,20 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cab6ed10-b0bc-498c-94a8-5e2c2463b952" name="Changes" comment="Выполнили шаг 4">
-      <change afterPath="$PROJECT_DIR$/Lab2/agent_base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab2/calculator_agent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab2/main_lab2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab2/message.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab2/number_agent.py" afterDir="false" />
+    <list default="true" id="cab6ed10-b0bc-498c-94a8-5e2c2463b952" name="Changes" comment="Выполнили шаги с 1 по 5">
+      <change afterPath="$PROJECT_DIR$/Lab2/Task1_output" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/control_question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1/control_question.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainBonusTasks.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1/mainBonusTasks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_lab1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1/output_lab1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_task1_bonus.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1/output_task1_bonus.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_task2_bonus.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1/output_task2_bonus.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_task3_bonus.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1/output_task3_bonus.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2/calculator_agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2/calculator_agent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2/main_lab2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2/main_lab2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2/message.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2/message.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab2/number_agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2/number_agent.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Lab2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -70,7 +63,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "Lab2",
+    "git-widget-placeholder": "Lab2__1__task",
     "node.js.detected.package.jshint": "true",
     "node.js.selected.package.jshint": "",
     "nodejs_package_manager_path": "npm",
@@ -171,7 +164,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789137995962</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Выполнили шаги с 1 по 5">
+      <option name="closed" value="true" />
+      <created>1791296979739</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1791296979739</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +194,7 @@
     <MESSAGE value="Создал файл main" />
     <MESSAGE value="Выполнил шаг 1" />
     <MESSAGE value="Выполнили шаги 2,3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Выполнили шаги 2,3" />
+    <MESSAGE value="Выполнили шаги с 1 по 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Выполнили шаги с 1 по 5" />
   </component>
 </project>
