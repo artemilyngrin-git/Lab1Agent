@@ -7,7 +7,7 @@ class MessageType(Enum):
     INITIALIZATION = 'Инициализация'
     CREATE_ACTOR = 'Создание актора'
     HELLO_WORLD = 'Приветствие'
-
+    SET_OPERATION = 'Выбор операции'
 
 @dataclass
 class Message:
