@@ -4,9 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cab6ed10-b0bc-498c-94a8-5e2c2463b952" name="Changes" comment="Выполнили шаги 2,3">
+    <list default="true" id="cab6ed10-b0bc-498c-94a8-5e2c2463b952" name="Changes" comment="Выполнили шаг 4">
+      <change afterPath="$PROJECT_DIR$/Lab2/agent_base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab2/calculator_agent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab2/main_lab2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab2/message.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab2/number_agent.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/control_question.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1/control_question.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainBonusTasks.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1/mainBonusTasks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output_lab1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1/output_lab1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output_task1_bonus.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1/output_task1_bonus.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output_task2_bonus.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1/output_task2_bonus.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output_task3_bonus.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1/output_task3_bonus.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +34,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Step2" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,6 +55,9 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="3JBAMf8W5GFFhcdzVT3QJpa2XCi" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -51,15 +65,56 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.main.executor": "Run",
+    "Python.main_lab2.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "Step4",
+    "git-widget-placeholder": "Lab2",
+    "node.js.detected.package.jshint": "true",
+    "node.js.selected.package.jshint": "",
     "nodejs_package_manager_path": "npm",
     "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\MultiAgents\Lab1Agent\Lab1" />
+      <recent name="C:\MultiAgents\Lab1Agent\Lab2" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main_lab2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Lab1Agent" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lab2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab2/main_lab2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main_lab2" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>

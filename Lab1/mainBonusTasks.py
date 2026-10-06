@@ -70,6 +70,7 @@ class ExtendedCalculatorActor(Actor):
             for v in self.values[1:]:
                 result /= v
             return result
+        return None
 
     def receiveMessage(self, msg, sender):
         if isinstance(msg, dict) and 'operation' in msg:
