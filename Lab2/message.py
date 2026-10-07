@@ -9,10 +9,10 @@ class MessageType(Enum):
     CREATE_ACTOR = 'Создание актора'
     HELLO_WORLD = 'Приветствие'
     SET_OPERATION = 'Выбор операции'
+    REJECTED = 'Отказ'
 
 @dataclass
 class Message:
-    """Класс для хранения сообщений"""
     msg_type: MessageType
     msg_body: Any
     created_at: float = field(default_factory=time.perf_counter)

@@ -10,7 +10,6 @@ from message import MessageType, Message
 
 
 class AgentBase(ABC, Actor):
-    """Базовая реализация агента"""
 
     def __init__(self):
         super().__init__()
@@ -19,17 +18,18 @@ class AgentBase(ABC, Actor):
         self.subscribe(MessageType.HELLO_WORLD, self.handle_hello_world)
 
     def subscribe(self, msg_type: MessageType, handler: Callable[[Any, ActorAddress], None]):
-        """
-        Подписка на события определенного типа
-        :param msg_type: Тип события
-        :param handler: Обработчик сообщения заданного типа
-        """
         if msg_type in self.handlers:
             logging.warning('Повторная подписка на сообщение: %s', msg_type)
         self.handlers[msg_type] = handler
+        
+    def unsubscribe(self, msg_type: MessageType) -> bool:
+        if msg_type not in self.handlers:
+            logging.warning('%s: отписка от сообщения без подписки: %s', self.name, msg_type)
+            return False
+        del self.handlers[msg_type]
+        return True
 
     def receiveMessage(self, msg, sender):
-        """Обрабатывает сообщения - запускает их обработку в зависимости от типа."""
         logging.debug('%s получил сообщение: %s', self.name, msg)
 
         if isinstance(msg, Message):
