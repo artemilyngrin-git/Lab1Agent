@@ -1,6 +1,7 @@
 from enum import Enum
-from dataclasses import dataclass
+from dataclasses import dataclass,field
 from typing import Any
+import time
 
 
 class MessageType(Enum):
@@ -14,3 +15,4 @@ class Message:
     """Класс для хранения сообщений"""
     msg_type: MessageType
     msg_body: Any
+    created_at: float = field(default_factory=time.perf_counter)
