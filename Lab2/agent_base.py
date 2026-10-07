@@ -2,6 +2,7 @@ from abc import ABC
 from typing import Dict, Callable, Any
 import logging
 import traceback
+import time
 
 from thespian.actors import Actor, ActorAddress
 
@@ -34,6 +35,8 @@ class AgentBase(ABC, Actor):
         if isinstance(msg, Message):
             message_type = msg.msg_type
             if message_type in self.handlers:
+                delay_ms = (time.perf_counter() - msg.created_at) * 1000
+                print(f'{self.name}: задержка {delay_ms:.4f} мс ({message_type.value})')
                 try:
                     self.handlers[message_type](msg, sender)
                 except Exception as ex:
