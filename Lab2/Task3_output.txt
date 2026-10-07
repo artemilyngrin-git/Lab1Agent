@@ -1,0 +1,50 @@
+Базовый агент: задержка 0.0294 мс (Выбор операции)
+Актор числа с адресом ActorAddr-/A~b получил Message(msg_type=<MessageType.SET_OPERATION: 'Выбор операции'>, msg_body={'init_value': 3, 'operation': '+', 'calculator_address':<thespian.actors.ActorAddress object at 0x000002582B8BE7B0>}, created_at=101454.4601612) от ActorAddr-System:ExternalRequester
+Базовый агент: задержка 0.0158 мс (Выбор операции)
+Актор-калькулятор ActorAddr-/A~a: Стартовое число: 3
+Базовый агент: задержка 0.0132 мс (Выбор операции)
+Актор числа с адресом ActorAddr-/A~c получил Message(msg_type=<MessageType.SET_OPERATION: 'Выбор операции'>, msg_body={'init_value': 10, 'operation': '+', 'calculator_address': <thespian.actors.ActorAddress object at 0x000002582B8BE7B0>}, created_at=101454.4604433) от ActorAddr-System:ExternalRequester
+Базовый агент: задержка 0.0085 мс (Выбор операции)
+Актор-калькулятор с адресом ActorAddr-/A~a получил Message(msg_type=<MessageType.SET_OPERATION: 'Выбор операции'>, msg_body={'init_value': 10, 'operation': '+'}, created_at=101454.4605072) от ActorAddr-/A~c, итоговая сумма: 13
+Базовый агент: задержка 0.0197 мс (Выбор операции)
+Актор числа с адресом ActorAddr-/A~d получил Message(msg_type=<MessageType.SET_OPERATION: 'Выбор операции'>, msg_body={'init_value': 10, 'operation': '*', 'calculator_address': <thespian.actors.ActorAddress object at 0x000002582B8BE7B0>}, created_at=101454.4606606) от ActorAddr-System:ExternalRequester
+Базовый агент: задержка 0.0096 мс (Выбор операции)
+Актор-калькулятор с адресом ActorAddr-/A~a получил Message(msg_type=<MessageType.SET_OPERATION: 'Выбор операции'>, msg_body={'init_value': 10, 'operation': '*'}, created_at=101454.4607468) от ActorAddr-/A~d, итог умножения : 130
+2026-10-07 12:13:22,029 WARNING =>  Базовый агент Отсутствует подписка на сообщение: MessageType.CREATE_ACTOR  [agent_base.py:59]
+Базовый агент: задержка 0.0124 мс (Выбор операции)
+Актор числа с адресом ActorAddr-/A~e получил Message(msg_type=<MessageType.SET_OPERATION: 'Выбор операции'>, msg_body={'init_value': 1, 'operation': '+', 'calculator_address':<thespian.actors.ActorAddress object at 0x000002582B8BE7B0>}, created_at=101454.4616438) от ActorAddr-System:ExternalRequester
+Базовый агент: задержка 0.0079 мс (Выбор операции)
+Актор-калькулятор с адресом ActorAddr-/A~a получил Message(msg_type=<MessageType.SET_OPERATION: 'Выбор операции'>, msg_body={'init_value': 1, 'operation': '+'}, created_at=101454.4617051) от ActorAddr-/A~e, итоговая сумма: 131
+Базовый агент: задержка 0.0100 мс (Выбор операции)
+Актор числа с адресом ActorAddr-/A~f получил Message(msg_type=<MessageType.SET_OPERATION: 'Выбор операции'>, msg_body={'init_value': 2, 'operation': '+', 'calculator_address':<thespian.actors.ActorAddress object at 0x000002582B8BE7B0>}, created_at=101454.461798) от ActorAddr-System:ExternalRequester
+Базовый агент: задержка 0.0088 мс (Выбор операции)
+Актор-калькулятор с адресом ActorAddr-/A~a получил Message(msg_type=<MessageType.SET_OPERATION: 'Выбор операции'>, msg_body={'init_value': 2, 'operation': '+'}, created_at=101454.4618561) от ActorAddr-/A~f, итоговая сумма: 133
+Базовый агент: задержка 0.0854 мс (Выбор операции)
+Актор числа с адресом ActorAddr-/A~g получил Message(msg_type=<MessageType.SET_OPERATION: 'Выбор операции'>, msg_body={'init_value': 3, 'operation': '+', 'calculator_address':<thespian.actors.ActorAddress object at 0x000002582B8BE7B0>}, created_at=101454.4619434) от ActorAddr-System:ExternalRequester
+Базовый агент: задержка 0.0086 мс (Выбор операции)
+Актор-калькулятор с адресом ActorAddr-/A~a получил Message(msg_type=<MessageType.SET_OPERATION: 'Выбор операции'>, msg_body={'init_value': 3, 'operation': '+'}, created_at=101454.4620765) от ActorAddr-/A~g, итоговая сумма: 136
+Базовый агент: задержка 0.0099 мс (Выбор операции)
+Актор числа с адресом ActorAddr-/A~h получил Message(msg_type=<MessageType.SET_OPERATION: 'Выбор операции'>, msg_body={'init_value': 4, 'operation': '+', 'calculator_address':<thespian.actors.ActorAddress object at 0x000002582B8BE7B0>}, created_at=101454.4621739) от ActorAddr-System:ExternalRequester
+Базовый агент: задержка 0.0121 мс (Выбор операции)
+Актор-калькулятор с адресом ActorAddr-/A~a получил Message(msg_type=<MessageType.SET_OPERATION: 'Выбор операции'>, msg_body={'init_value': 4, 'operation': '+'}, created_at=101454.4623017) от ActorAddr-/A~h, итоговая сумма: 140
+Базовый агент: задержка 0.0110 мс (Выбор операции)
+Актор числа с адресом ActorAddr-/A~i получил Message(msg_type=<MessageType.SET_OPERATION: 'Выбор операции'>, msg_body={'init_value': 5, 'operation': '+', 'calculator_address':<thespian.actors.ActorAddress object at 0x000002582B8BE7B0>}, created_at=101454.4624446) от ActorAddr-System:ExternalRequester
+Базовый агент: задержка 0.0078 мс (Выбор операции)
+Актор-калькулятор с адресом ActorAddr-/A~a получил Message(msg_type=<MessageType.SET_OPERATION: 'Выбор операции'>, msg_body={'init_value': 5, 'operation': '+'}, created_at=101454.4625153) от ActorAddr-/A~i, итоговая сумма: 145
+Базовый агент: задержка 0.0146 мс (Выбор операции)
+Актор числа с адресом ActorAddr-/A~j получил Message(msg_type=<MessageType.SET_OPERATION: 'Выбор операции'>, msg_body={'init_value': 6, 'operation': '+', 'calculator_address':<thespian.actors.ActorAddress object at 0x000002582B8BE7B0>}, created_at=101454.4626695) от ActorAddr-System:ExternalRequester
+Базовый агент: задержка 0.0132 мс (Выбор операции)
+Актор-калькулятор с адресом ActorAddr-/A~a получил Message(msg_type=<MessageType.SET_OPERATION: 'Выбор операции'>, msg_body={'init_value': 6, 'operation': '+'}, created_at=101454.4627517) от ActorAddr-/A~j, итоговая сумма: 151
+Базовый агент: задержка 0.0115 мс (Выбор операции)
+Актор числа с адресом ActorAddr-/A~k получил Message(msg_type=<MessageType.SET_OPERATION: 'Выбор операции'>, msg_body={'init_value': 7, 'operation': '+', 'calculator_address':<thespian.actors.ActorAddress object at 0x000002582B8BE7B0>}, created_at=101454.4628707) от ActorAddr-System:ExternalRequester
+Базовый агент: задержка 0.0186 мс (Выбор операции)
+Калькулятор принял 10 сообщений и больше не принимает числа
+Актор-калькулятор с адресом ActorAddr-/A~a получил Message(msg_type=<MessageType.SET_OPERATION: 'Выбор операции'>, msg_body={'init_value': 7, 'operation': '+'}, created_at=101454.4629495) от ActorAddr-/A~k, итоговая сумма: 158
+Базовый агент: задержка 0.0136 мс (Выбор операции)
+Актор числа с адресом ActorAddr-/A~l получил Message(msg_type=<MessageType.SET_OPERATION: 'Выбор операции'>, msg_body={'init_value': 8, 'operation': '+', 'calculator_address':<thespian.actors.ActorAddress object at 0x000002582B8BE7B0>}, created_at=101454.4631353) от ActorAddr-System:ExternalRequester
+Базовый агент: задержка 0.0153 мс (Выбор операции)
+2026-10-07 12:13:22,031 WARNING =>  Базовый агент Отсутствует подписка на сообщение: MessageType.REJECTED  [agent_base.py:59]
+Базовый агент: задержка 0.0122 мс (Выбор операции)
+Актор числа с адресом ActorAddr-/A~m получил Message(msg_type=<MessageType.SET_OPERATION: 'Выбор операции'>, msg_body={'init_value': 9, 'operation': '+', 'calculator_address':<thespian.actors.ActorAddress object at 0x000002582B8BE7B0>}, created_at=101454.4634964) от ActorAddr-System:ExternalRequester
+Базовый агент: задержка 0.0151 мс (Выбор операции)
+2026-10-07 12:13:22,032 WARNING =>  Базовый агент Отсутствует подписка на сообщение: MessageType.REJECTED  [agent_base.py:59]

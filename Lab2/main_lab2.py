@@ -33,3 +33,9 @@ if __name__ == '__main__':
     init_message_5 = Message(MessageType.SET_OPERATION, init_message_5_data)
     actorSystem.tell(number_agent_5, init_message_5)
 
+    actorSystem.tell(calculator_address, Message(MessageType.CREATE_ACTOR, None))
+
+    for value in range(1, 10):
+        number_agent = actorSystem.createActor(NumberAgent)
+        init_data = {'init_value': value, 'operation': '+', 'calculator_address': calculator_address}
+        actorSystem.tell(number_agent, Message(MessageType.SET_OPERATION, init_data))

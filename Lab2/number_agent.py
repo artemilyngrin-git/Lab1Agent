@@ -31,3 +31,6 @@ class NumberAgent(AgentBase):
         new_message = Message(MessageType.SET_OPERATION, payload)
 
         self.send(calculator_address, new_message)
+        
+    def handle_rejected(self, message: Message, sender: ActorAddress):
+        print(f'Агент числа {self.myAddress}: значение {self.value} отклонено, причина: {message.msg_body}')
