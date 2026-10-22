@@ -5,11 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cab6ed10-b0bc-498c-94a8-5e2c2463b952" name="Changes" comment="Выполнили 1 самостоятельное задание">
+      <change afterPath="$PROJECT_DIR$/Lab3/agent_base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab3/agents_dispatcher.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab3/courier_agent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab3/entities/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab3/entities/base_entity.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab3/entities/courier_entity.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab3/entities/order_entity.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab3/entities/schedule_item.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab3/log_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab3/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab3/message.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab3/order_agent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab3/point.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab3/reference_book.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab3/scene.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab3/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab3/utils/excel_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab3/utils/output_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab3/Исходные данные.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab3/Расписание.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lab1Agent.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lab1Agent.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2/Task1_output" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2/Task1_output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2/calculator_agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2/calculator_agent.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2/main_lab2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2/main_lab2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab2/number_agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab2/number_agent.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +58,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/artemilyngrin-git/Lab1Agent.git&quot;,
-    &quot;accountId&quot;: &quot;05653e9b-3979-4e44-9694-8fbbcb973ea0&quot;
+    &quot;accountId&quot;: &quot;9ac917de-15f6-4e71-8aa8-f0701d8cff06&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -62,15 +80,20 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "Lab2__1__task",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/MSI/PycharmProjects/Lab1Agent/Lab3",
     "node.js.detected.package.jshint": "true",
     "node.js.selected.package.jshint": "",
     "nodejs_package_manager_path": "npm",
     "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\MSI\PycharmProjects\Lab1Agent\Lab3" />
+      <recent name="C:\Users\MSI\PycharmProjects\Lab1Agent\Lab3\utils" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\MultiAgents\Lab1Agent\Lab1" />
       <recent name="C:\MultiAgents\Lab1Agent\Lab2" />
@@ -91,6 +114,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab2/main_lab2.py" />
       <option name="PARAMETERS" value="" />
@@ -110,7 +134,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-eff1e8def5f5-5bd6d13a2a75-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-262.10315.174" />
+        <option value="bundled-python-sdk-73a66231627c-5bd6d13a2a75-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-262.10968.92" />
       </set>
     </attachedChunks>
   </component>
@@ -122,6 +146,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1789124040631</updated>
+      <workItem from="1792656900583" duration="1110000" />
+      <workItem from="1792658019790" duration="392000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <option name="closed" value="true" />
@@ -204,5 +230,8 @@
     <MESSAGE value="Выполнили шаги с 1 по 5" />
     <MESSAGE value="Выполнили 1 самостоятельное задание" />
     <option name="LAST_COMMIT_MESSAGE" value="Выполнили 1 самостоятельное задание" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Lab1Agent$main.coverage" NAME="main Coverage Results" MODIFIED="1792658385809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lab3" />
   </component>
 </project>
