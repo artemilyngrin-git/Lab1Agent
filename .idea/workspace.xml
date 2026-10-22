@@ -5,69 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cab6ed10-b0bc-498c-94a8-5e2c2463b952" name="Changes" comment="Выполнили 1 самостоятельное задание">
-      <change afterPath="$PROJECT_DIR$/Lab3/Задание_1_три_записи_расписания/agent_base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/Задание_1_три_записи_расписания/agents_dispatcher.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/Задание_1_три_записи_расписания/courier_agent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/Задание_1_три_записи_расписания/entities/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/Задание_1_три_записи_расписания/entities/base_entity.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/Задание_1_три_записи_расписания/entities/courier_entity.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/Задание_1_три_записи_расписания/entities/order_entity.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/Задание_1_три_записи_расписания/entities/schedule_item.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/Задание_1_три_записи_расписания/log_config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/Задание_1_три_записи_расписания/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/Задание_1_три_записи_расписания/message.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/Задание_1_три_записи_расписания/order_agent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/Задание_1_три_записи_расписания/point.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/Задание_1_три_записи_расписания/reference_book.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/Задание_1_три_записи_расписания/scene.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/Задание_1_три_записи_расписания/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/Задание_1_три_записи_расписания/utils/excel_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/Задание_1_три_записи_расписания/utils/output_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/Задание_1_три_записи_расписания/Исходные данные.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/Задание_1_три_записи_расписания/Расписание.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/Задание_2_get_conflicts/agent_base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/Задание_2_get_conflicts/agents_dispatcher.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/Задание_2_get_conflicts/courier_agent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/Задание_2_get_conflicts/entities/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/Задание_2_get_conflicts/entities/base_entity.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/Задание_2_get_conflicts/entities/courier_entity.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/Задание_2_get_conflicts/entities/order_entity.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/Задание_2_get_conflicts/entities/schedule_item.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/Задание_2_get_conflicts/log_config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/Задание_2_get_conflicts/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/Задание_2_get_conflicts/message.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/Задание_2_get_conflicts/order_agent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/Задание_2_get_conflicts/point.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/Задание_2_get_conflicts/reference_book.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/Задание_2_get_conflicts/scene.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/Задание_2_get_conflicts/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/Задание_2_get_conflicts/utils/excel_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/Задание_2_get_conflicts/utils/output_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/Задание_2_get_conflicts/Исходные данные.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/Задание_2_get_conflicts/Расписание.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/Задание_3_ближайшие_курьеры/agent_base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/Задание_3_ближайшие_курьеры/agents_dispatcher.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/Задание_3_ближайшие_курьеры/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/Задание_3_ближайшие_курьеры/courier_agent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/Задание_3_ближайшие_курьеры/entities/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/Задание_3_ближайшие_курьеры/entities/base_entity.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/Задание_3_ближайшие_курьеры/entities/courier_entity.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/Задание_3_ближайшие_курьеры/entities/order_entity.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/Задание_3_ближайшие_курьеры/entities/schedule_item.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/Задание_3_ближайшие_курьеры/experiment.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/Задание_3_ближайшие_курьеры/log_config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/Задание_3_ближайшие_курьеры/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/Задание_3_ближайшие_курьеры/message.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/Задание_3_ближайшие_курьеры/order_agent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/Задание_3_ближайшие_курьеры/point.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/Задание_3_ближайшие_курьеры/reference_book.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/Задание_3_ближайшие_курьеры/scene.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/Задание_3_ближайшие_курьеры/stats.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/Задание_3_ближайшие_курьеры/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/Задание_3_ближайшие_курьеры/utils/excel_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/Задание_3_ближайшие_курьеры/utils/output_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/Задание_3_ближайшие_курьеры/Исходные данные.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3/Задание_3_ближайшие_курьеры/Расписание.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab3/agent_base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab3/agents_dispatcher.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab3/courier_agent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab3/entities/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab3/entities/base_entity.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab3/entities/courier_entity.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab3/entities/order_entity.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab3/entities/schedule_item.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab3/log_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab3/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab3/message.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab3/order_agent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab3/point.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab3/reference_book.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab3/scene.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab3/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab3/utils/excel_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab3/utils/output_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab3/Исходные данные.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab3/Расписание.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lab1Agent.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lab1Agent.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +44,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Lab2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -113,23 +72,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.main.executor": "Run",
-    "Python.main_lab2.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "additional-tasks",
-    "last_opened_file_path": "C:/Users/MSI/PycharmProjects/Lab1Agent/Lab3",
-    "node.js.detected.package.jshint": "true",
-    "node.js.selected.package.jshint": "",
-    "nodejs_package_manager_path": "npm",
-    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main_lab2.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/MSI/PycharmProjects/Lab1Agent/Lab3&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;python.packages.toolwindow.project.migrated.to.right.top.v2&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\MSI\PycharmProjects\Lab1Agent\Lab3" />
@@ -273,6 +232,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Выполнили 1 самостоятельное задание" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Lab1Agent$main.coverage" NAME="main Coverage Results" MODIFIED="1792658942053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lab3" />
+    <SUITE FILE_PATH="coverage/Lab1Agent$main.coverage" NAME="main Coverage Results" MODIFIED="1792658385809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lab3" />
   </component>
 </project>
