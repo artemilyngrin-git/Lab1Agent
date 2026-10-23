@@ -4,7 +4,6 @@ from thespian.actors import ActorSystem
 
 from courier_agent import CourierAgent
 from entities.base_entity import BaseEntity
-from log_config import LOG_CONFIG
 from message import Message, MessageType
 from order_agent import OrderAgent
 from reference_book import ReferenceBook
@@ -19,7 +18,7 @@ class AgentsDispatcher:
     """Класс диспетчера агентов"""
 
     def __init__(self, scene):
-        self.actor_system = ActorSystem(logDefs=LOG_CONFIG)
+        self.actor_system = ActorSystem()
         self.reference_book = ReferenceBook()
         self.scene = scene
 
