@@ -4,14 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cab6ed10-b0bc-498c-94a8-5e2c2463b952" name="Changes" comment="Оформил выводы">
+    <list default="true" id="cab6ed10-b0bc-498c-94a8-5e2c2463b952" name="Changes" comment="Выполнили 1 самостоятельное задание">
+      <change afterPath="$PROJECT_DIR$/Lab4/agent_base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab4/agents_dispatcher.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab4/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab4/courier_agent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab4/entities/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab4/entities/base_entity.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab4/entities/courier_entity.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab4/entities/order_entity.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab4/entities/schedule_item.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab4/experiment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab4/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab4/message.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab4/order_agent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab4/point.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab4/reference_book.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab4/scene.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab4/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab4/utils/excel_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab4/utils/output_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab4/Исходные данные.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab4/Расписание.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab4/Результаты/Контрольные_вопросы.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab4/Результаты/Расписание_базовые_веса.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab4/Результаты/Таблица_сравнения_весов.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lab1Agent.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lab1Agent.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab3/agents_dispatcher.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3/agents_dispatcher.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab3/log_config.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab3/Задание_1_три_записи_расписания/agents_dispatcher.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3/Задание_1_три_записи_расписания/agents_dispatcher.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab3/Задание_1_три_записи_расписания/log_config.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab3/Задание_2_get_conflicts/agents_dispatcher.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3/Задание_2_get_conflicts/agents_dispatcher.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab3/Задание_2_get_conflicts/log_config.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +47,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Lab2" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,12 +58,12 @@
     &quot;assignee&quot;: &quot;artemilyngrin-git&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/artemilyngrin-git/Lab1Agent.git&quot;,
-    &quot;accountId&quot;: &quot;9ac917de-15f6-4e71-8aa8-f0701d8cff06&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/artemilyngrin-git/Lab1Agent.git",
+    "accountId": "05653e9b-3979-4e44-9694-8fbbcb973ea0"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -58,15 +77,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Python.agents_dispatcher.executor": "Run",
+    "Python.courier_agent.executor": "Run",
+    "Python.experiment.executor": "Run",
     "Python.main.executor": "Run",
     "Python.main_lab2.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/MSI/PycharmProjects/Lab1Agent/Lab3",
+    "git-widget-placeholder": "Lab4",
+    "last_opened_file_path": "C:/MultiAgents/Lab1Agent",
     "node.js.detected.package.jshint": "true",
     "node.js.selected.package.jshint": "",
     "nodejs_package_manager_path": "npm",
@@ -76,8 +96,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\MultiAgents\Lab1Agent" />
       <recent name="C:\Users\MSI\PycharmProjects\Lab1Agent\Lab3" />
-      <recent name="C:\Users\MSI\PycharmProjects\Lab1Agent\Lab3\Результаты" />
       <recent name="C:\Users\MSI\PycharmProjects\Lab1Agent\Lab3\utils" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -120,7 +140,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-73a66231627c-5bd6d13a2a75-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-262.10968.92" />
+        <option value="bundled-python-sdk-eff1e8def5f5-5bd6d13a2a75-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-262.10315.174" />
       </set>
     </attachedChunks>
   </component>
@@ -134,8 +154,6 @@
       <updated>1789124040631</updated>
       <workItem from="1792656900583" duration="1110000" />
       <workItem from="1792658019790" duration="392000" />
-      <workItem from="1792684114380" duration="7000" />
-      <workItem from="1792742577934" duration="940000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <option name="closed" value="true" />
@@ -193,38 +211,11 @@
       <option name="project" value="LOCAL" />
       <updated>1791313184558</updated>
     </task>
-    <task id="LOCAL-00008" summary="Выполнил шаги с 1 - 6">
-      <option name="closed" value="true" />
-      <created>1792659514785</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1792659514785</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Оформил выводы">
-      <option name="closed" value="true" />
-      <created>1792659689232</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1792659689232</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Оформил выводы">
-      <option name="closed" value="true" />
-      <created>1792743117456</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1792743117456</updated>
-    </task>
-    <option name="localTasksCounter" value="11" />
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="UnknownFeatures">
-    <option featureType="com.intellij.fileTypeFactory" implementationName="*.puml" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -244,13 +235,9 @@
     <MESSAGE value="Выполнили шаги 2,3" />
     <MESSAGE value="Выполнили шаги с 1 по 5" />
     <MESSAGE value="Выполнили 1 самостоятельное задание" />
-    <MESSAGE value="Выполнил шаги с 1 - 6" />
-    <MESSAGE value="Оформил выводы" />
-    <option name="LAST_COMMIT_MESSAGE" value="Оформил выводы" />
+    <option name="LAST_COMMIT_MESSAGE" value="Выполнили 1 самостоятельное задание" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Lab1Agent$main_lab2.coverage" NAME="main_lab2 Coverage Results" MODIFIED="1792742586130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lab2" />
-    <SUITE FILE_PATH="coverage/Lab1Agent$agents_dispatcher.coverage" NAME="agents_dispatcher Coverage Results" MODIFIED="1792743500153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lab3/Задание_2_get_conflicts" />
-    <SUITE FILE_PATH="coverage/Lab1Agent$main.coverage" NAME="main Coverage Results" MODIFIED="1792743505711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lab3/Задание_2_get_conflicts" />
+    <SUITE FILE_PATH="coverage/Lab1Agent$main.coverage" NAME="main Coverage Results" MODIFIED="1792658385809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lab3" />
   </component>
 </project>
